@@ -19,10 +19,10 @@ const noMessages = [
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+    "Theriyum enna unaku romba pudikumnu but first NO click panni paaru😏",
+    "Ada No click pannuya 👀",
+    "Eruma No click pannu😈",
+    "Oru dhadava NO click pannu Maadu 😏"
 ]
 
 let yesTeasedCount = 0
