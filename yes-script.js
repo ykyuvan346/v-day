@@ -5,10 +5,28 @@ window.addEventListener('load', () => {
 
     // Autoplay music (works since user clicked Yes to get here)
     const music = document.getElementById('bg-music')
-    music.volume = 0.3
-    music.play().catch(() => {})
-    musicPlaying = true
-    document.getElementById('music-toggle').textContent = '🔊'
+
+// ✅ RESTORE MUSIC TIME
+const savedTime = localStorage.getItem("musicTime")
+if (savedTime) {
+    music.currentTime = savedTime
+}
+
+// ✅ AUTOPLAY FIX
+music.muted = true
+music.volume = 0.3
+
+music.play().then(() => {
+    music.muted = false
+}).catch(() => {
+    document.addEventListener('click', () => {
+        music.muted = false
+        music.play()
+    }, { once: true })
+})
+
+musicPlaying = true
+document.getElementById('music-toggle').textContent = '🔊'
 })
 
 function launchConfetti() {
