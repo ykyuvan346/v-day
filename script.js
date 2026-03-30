@@ -12,13 +12,13 @@ const gifStages = [
 const noMessages = [
     "NO",
     "NO (Are you sure? Marandhutu No click pannitiyo🤔)",
-    "NO (Meendum meenduma... 🥺)",
-    "NO (Innoru time No sonna aludhiruven paathuka...)",
-    "I will be very sad... 😢",
-    "Please??? 💔",
-    "Don't do this to me...",
+    "NO (Venamey... 🥺)",
+    "NO (Meendum meenduma...🥲)",
+    "NO (Innoru time No sonna aludhiruven paathuka...😢",
+    "NO (Please??? 💔",
+    "NO (Enna Paatha paavama illaya unaku...😑",
     "Last chance! 😭",
-    "You can't catch me anyway 😜"
+    "Pudikka Mudiyadhey😜"
 ]
 
 const yesTeasePokes = [
