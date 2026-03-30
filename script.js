@@ -70,6 +70,7 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
+    localStorage.setItem("musicTime", music.currentTime)
     window.location.href = 'yes.html'
 }
 
